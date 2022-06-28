@@ -4,7 +4,8 @@
   "description": "learnwebpack",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "keywords": [
     "js",
