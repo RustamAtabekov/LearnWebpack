@@ -11,6 +11,14 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
   },
 
+  devServer: {
+    static: {
+      directory: path.join(__dirname, "dist"),
+    },
+    compress: true,
+    port: 4200,
+  },
+
   plugins: [
     new MiniCssExtractPlugin({
       filename: "style.css",
