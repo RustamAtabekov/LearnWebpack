@@ -9,6 +9,17 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/css/index.css":
+/*!***************************!*\
+  !*** ./src/css/index.css ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://learnwebpack/./src/css/index.css?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -16,7 +27,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_app_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/app.service */ \"./src/modules/app.service.js\");\n/* harmony import */ var _modules_config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/config */ \"./src/modules/config.js\");\n/* harmony import */ var _modules_header_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/header.component */ \"./src/modules/header.component.js\");\n/* harmony import */ var _modules_header_component__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_modules_header_component__WEBPACK_IMPORTED_MODULE_2__);\n\r\n\r\n\r\n\r\nconsole.log('Config: ', _modules_config__WEBPACK_IMPORTED_MODULE_1__.config.key);\r\n\r\nconst service = new _modules_app_service__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('Hello world');\r\nservice.log();\n\n//# sourceURL=webpack://learnwebpack/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_app_service__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/app.service */ \"./src/modules/app.service.js\");\n/* harmony import */ var _modules_config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/config */ \"./src/modules/config.js\");\n/* harmony import */ var _modules_header_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/header.component */ \"./src/modules/header.component.js\");\n/* harmony import */ var _modules_header_component__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_modules_header_component__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./css/index.css */ \"./src/css/index.css\");\n\r\n\r\n\r\n\r\n\r\nconsole.log(\"Config: \", _modules_config__WEBPACK_IMPORTED_MODULE_1__.config.key);\r\n\r\nconst service = new _modules_app_service__WEBPACK_IMPORTED_MODULE_0__[\"default\"](\"Hello world\");\r\nservice.log();\r\n\n\n//# sourceURL=webpack://learnwebpack/./src/index.js?");
 
 /***/ }),
 
