@@ -9,7 +9,19 @@
 .box {
   width: 700px;
   min-height: 300px;
-  margin: 0 auto;
+  margin: 20px auto;
   border: 5px solid rgba(37, 37, 211, 0.438);
-  background-color: rgba(161, 24, 24, 0.39);
+  background-color: rgba(233, 179, 79, 0.822);
+  font-size: 30px;
+  color: rgb(17, 26, 19);
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 50px;
+  color: rgba(35, 191, 219, 0.849);
 }
