@@ -1,5 +1,5 @@
 const path = require("path");
-const HTMLPlugin = require("html-webpack-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.js",
@@ -9,9 +9,9 @@ module.exports = {
   },
 
   plugins: [
-    new HTMLPlugin([
-      (filename = "index.html"),
-      (template = "./src/index.html"),
-    ]),
+    new HtmlWebpackPlugin({
+      filename: "index.html",
+      template: "./src/index.html",
+    }),
   ],
 };
