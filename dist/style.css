@@ -1,11 +1,1 @@
-/*!**********************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/header.css ***!
-  \**********************************************************************/header{color:rgba(35,219,35,.849);font-size:50px;margin-top:20px;text-align:center}
-
-/*!*********************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/index.css ***!
-  \*********************************************************************/*{box-sizing:border-box;margin:0;padding:0}.box{background-color:rgba(233,179,79,.822);border:5px solid rgba(37,37,211,.438);border-radius:10px;color:#111a13;font-size:30px;margin:20px auto;min-height:300px;padding-top:20px;width:700px}.box,footer{text-align:center}footer{color:rgba(35,191,219,.849);font-size:50px;margin-top:20px}
-
-/*!**************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/scss/index.scss ***!
-  \**************************************************************************************************************/.good-day{background-color:rgba(214,14,14,.5);border:5px solid #6d5585;border-radius:10px;color:blue;font-size:30px;margin-left:auto;margin-right:auto;margin-top:20px;padding:1em;text-align:center;width:700px}
+header{color:rgba(35,219,35,.849);font-size:50px;margin-top:20px;text-align:center}*{box-sizing:border-box;margin:0;padding:0}.box{background-color:rgba(233,179,79,.822);border:5px solid rgba(37,37,211,.438);border-radius:10px;color:#111a13;font-size:30px;margin:20px auto;min-height:300px;padding-top:20px;text-align:center;width:700px}footer{color:rgba(35,191,219,.849);font-size:50px}.good-day,footer{margin-top:20px;text-align:center}.good-day{background-color:rgba(214,14,14,.5);border:5px solid #6d5585;border-radius:10px;color:blue;font-size:30px;margin-left:auto;margin-right:auto;padding:1em;width:700px}
